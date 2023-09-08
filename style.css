@@ -81,6 +81,15 @@ body {
   border-radius: 16px;
   border: 3px solid #44D2FF;
 }
+.game-box__item:first-child {
+  background-image: url(img/games/game-1.png);
+}
+.game-box__item:nth-child(2) {
+  background-image: url(img/games/game-2.png);
+}
+.game-box__item:last-child {
+  background-image: url(img/games/game-3.png);
+}
 .game-box__text {
   color: #FFF;
   font-family: Montserrat;
@@ -90,13 +99,4 @@ body {
   line-height: 32px; /* 133.333% */
   margin-bottom: 32px;
   margin-left: 32px;
-}
-.game-box__item-1 {
-  background-image: url(img/games/game-1.png);
-}
-.game-box__item-2 {
-  background-image: url(img/games/game-2.png);
-}
-.game-box__item-3 {
-  background-image: url(img/games/game-3.png);
 }/*# sourceMappingURL=style.css.map */
