@@ -4,6 +4,17 @@
         padding-right: 16px;
     }
 
+    .title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
     .header {
         height: 735px;
         background-image: url(img/background_mobile.jpg);
@@ -12,17 +23,7 @@
         flex-direction: column;
         align-items: center;
 
-        &__title {
-            text-align: center;
-            font-size: 32px;
-            width: 343px;
-        }
-
         &__text {
-            text-align: center;
-            font-size: 14px;
-            line-height: 22px;
-            width: 343px;
             margin-bottom: 32px;
         }
     }
@@ -34,6 +35,25 @@
             &:hover {
                 width: 343px;
             }
+        }
+    }
+
+    .season-game {
+        height: 653.61px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__img {
+            width: 344px;
+            height: 236px;
         }
     }
 }

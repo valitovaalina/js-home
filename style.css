@@ -16,33 +16,23 @@ body {
   padding-right: calc(50% - 600px);
 }
 
-.header {
-  height: 1024px;
-  background-image: url(img/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 217.1px;
-}
-.header__title {
-  width: 788.778px;
+.title {
   color: #FFF;
-  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 32px;
 }
-.header__text {
-  width: 481px;
+
+.text {
   color: #FFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 32px; /* 177.778% */
-  margin-bottom: 44px;
 }
-.header__button {
+
+.button {
   width: 234.063px;
   height: 48.603px;
   border-radius: 30px;
@@ -55,8 +45,25 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.header__button:hover {
+.button:hover {
   background: #EB443F;
+}
+
+.header {
+  height: 1024px;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 217.1px;
+}
+.header__title {
+  max-width: 788.778px;
+  font-size: 64px;
+}
+.header__text {
+  max-width: 481px;
+  margin-bottom: 44px;
 }
 
 .game-box {
@@ -104,10 +111,35 @@ body {
   margin-left: 32px;
 }
 
+.season-game {
+  background: #000915;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.season-game__title {
+  font-size: 48px;
+}
+.season-game__text {
+  max-width: 584px;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
   }
   .header {
     height: 735px;
@@ -117,16 +149,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .header__title {
-    text-align: center;
-    font-size: 32px;
-    width: 343px;
-  }
   .header__text {
-    text-align: center;
-    font-size: 14px;
-    line-height: 22px;
-    width: 343px;
     margin-bottom: 32px;
   }
   .game-box__item {
@@ -134,5 +157,21 @@ body {
   }
   .game-box__item:hover {
     width: 343px;
+  }
+  .season-game {
+    height: 653.61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .season-game__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .season-game__img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
