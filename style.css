@@ -111,7 +111,7 @@ body {
   margin-left: 32px;
 }
 
-.season-game {
+.game {
   background: #000915;
   height: 800px;
   display: flex;
@@ -119,10 +119,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.season-game__title {
+.game__title {
   font-size: 48px;
 }
-.season-game__text {
+.game__text {
   max-width: 584px;
   margin-bottom: 32px;
 }
@@ -158,19 +158,19 @@ body {
   .game-box__item:hover {
     width: 343px;
   }
-  .season-game {
+  .game {
     height: 653.61px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
-  .season-game__content {
+  .game__content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .season-game__img {
+  .game__img {
     width: 344px;
     height: 236px;
   }

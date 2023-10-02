@@ -24,14 +24,22 @@
             <span class="game-box__text">Игра 3</span>
         </a>
     </section>
-    <section class="season-game center">
-        <div class="season-game__content">
-            <h1 class="season-game__title title">Времена года!</h1>
-            <p class="season-game__text text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+    <section class="game center">
+        <div class="game__content">
+            <h1 class="game__title title">Времена года!</h1>
+            <p class="game__text text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
             <button onclick="checkSeason();" class="button">Играть!</button>
         </div>
         <img class="season-game__img" src="img/season-game.png" alt="Большой джостик и наушники">
     </section>
-    <script src="hw-6.js"></script>
+    <section class="game center">
+        <img class="season-game__img" src="img/remember-game.png" alt="Очень большой джостик">
+        <div class="game__content">
+            <h1 class="game__title title">Запомни слова</h1>
+            <p class="game__text text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="checkRemember();" class="button">Играть!</button>
+        </div>
+    </section>
+    <script src="games.js"></script>
 </body>
 </html>
